@@ -1,5 +1,7 @@
-# Mountain View Projects feedback website
+# Mountain View Projects · Beta
 
-This repository contains only the generated files served by GitHub Pages. The React/TypeScript source and development history are kept in a separate private repository. No source maps, environment files, raw research, or original source files are included.
+[Open the website](https://twjulia.github.io/mountain-view-projects-site/).
 
-Google browser map configuration is visible in the generated JavaScript, as it is on the website. This is a prototype for feedback, with five reviewed projects.
+This repository contains generated website files only. The source repository is private.
+
+The beta includes 30 reviewed projects, with city-reported milestones and incomplete coverage clearly labeled. Information was checked October 9–15, 2026. This is an independent guide for feedback, not a complete city inventory.
