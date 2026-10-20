@@ -28,10 +28,28 @@
 <link rel="alternate" hreflang="zh-Hans" href="https://ourblockmv.com/zh-Hans/about/" />
 <link rel="alternate" hreflang="x-default" href="https://ourblockmv.com/about/" />
 <script id="site-structured-data" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"AboutPage","@id":"https://ourblockmv.com/zh-Hans/about/#webpage","url":"https://ourblockmv.com/zh-Hans/about/","name":"关于","description":"认识这份独立指南的建立者、Mountain View 居民 Julia Wang，了解计划信息的来源，并分享回馈或加入协作。","inLanguage":"zh-Hans","isPartOf":{"@id":"https://ourblockmv.com/#website"}}]}</script>
-<link rel="stylesheet" href="/assets/wght-DRIKPOmy.css" media="print" data-locale-font="zh-Hans" onload="this.media='all'" /><noscript><link rel="stylesheet" href="/assets/wght-DRIKPOmy.css" /></noscript>
+<link rel="stylesheet" href="/assets/wght-DRIKPOmy.css" media="print" data-locale-font="zh-Hans" onload="(function activateLocaleFont(link) {
+  const apply = () =&gt; { link.media = &#39;all&#39;; };
+  if (performance.getEntriesByName(&#39;first-contentful-paint&#39;).length) {
+    apply();
+    return;
+  }
+  if (typeof PerformanceObserver !== &#39;undefined&#39; &amp;&amp; PerformanceObserver.supportedEntryTypes?.includes(&#39;paint&#39;)) {
+    const observer = new PerformanceObserver((list) =&gt; {
+      if (list.getEntries().some((entry) =&gt; entry.name === &#39;first-contentful-paint&#39;)) {
+        observer.disconnect();
+        apply();
+      }
+    });
+    observer.observe({ type: &#39;paint&#39;, buffered: true });
+  } else {
+    // Older browsers without paint observation still get the selected font.
+    requestAnimationFrame(() =&gt; requestAnimationFrame(apply));
+  }
+})(this)" /><noscript><link rel="stylesheet" href="/assets/wght-DRIKPOmy.css" /></noscript>
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon.png" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <script type="module" crossorigin src="/assets/index-DIEWs4Z3.js"></script>
+    <script type="module" crossorigin src="/assets/index-Cm1dV-xh.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CWGgh1BR.css">
   </head>
   <body>

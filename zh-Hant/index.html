@@ -28,10 +28,28 @@
 <link rel="alternate" hreflang="zh-Hans" href="https://ourblockmv.com/zh-Hans/" />
 <link rel="alternate" hreflang="x-default" href="https://ourblockmv.com/" />
 <script id="site-structured-data" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://ourblockmv.com/#website","name":"Our Block MV","alternateName":"ourblockmv.com","url":"https://ourblockmv.com/","inLanguage":["en","zh-Hant","zh-Hans"]},{"@type":"WebPage","@id":"https://ourblockmv.com/zh-Hant/#webpage","url":"https://ourblockmv.com/zh-Hant/","name":"Our Block MV","description":"探索美國加州 Mountain View 的住宅、交通與公園計畫。尋找住家附近的計畫，了解如何參與。","inLanguage":"zh-Hant","isPartOf":{"@id":"https://ourblockmv.com/#website"}}]}</script>
-<link rel="stylesheet" href="/assets/wght-LwYKGt92.css" media="print" data-locale-font="zh-Hant" onload="this.media='all'" /><noscript><link rel="stylesheet" href="/assets/wght-LwYKGt92.css" /></noscript>
+<link rel="stylesheet" href="/assets/wght-LwYKGt92.css" media="print" data-locale-font="zh-Hant" onload="(function activateLocaleFont(link) {
+  const apply = () =&gt; { link.media = &#39;all&#39;; };
+  if (performance.getEntriesByName(&#39;first-contentful-paint&#39;).length) {
+    apply();
+    return;
+  }
+  if (typeof PerformanceObserver !== &#39;undefined&#39; &amp;&amp; PerformanceObserver.supportedEntryTypes?.includes(&#39;paint&#39;)) {
+    const observer = new PerformanceObserver((list) =&gt; {
+      if (list.getEntries().some((entry) =&gt; entry.name === &#39;first-contentful-paint&#39;)) {
+        observer.disconnect();
+        apply();
+      }
+    });
+    observer.observe({ type: &#39;paint&#39;, buffered: true });
+  } else {
+    // Older browsers without paint observation still get the selected font.
+    requestAnimationFrame(() =&gt; requestAnimationFrame(apply));
+  }
+})(this)" /><noscript><link rel="stylesheet" href="/assets/wght-LwYKGt92.css" /></noscript>
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon.png" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <script type="module" crossorigin src="/assets/index-DIEWs4Z3.js"></script>
+    <script type="module" crossorigin src="/assets/index-Cm1dV-xh.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CWGgh1BR.css">
   </head>
   <body>

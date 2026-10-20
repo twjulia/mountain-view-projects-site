@@ -22,10 +22,28 @@
 <meta name="twitter:description" content="探索美国加州 Mountain View 的住宅、交通与公园计划。寻找住家附近的计划，了解如何参与。" />
 <meta name="twitter:image" content="https://ourblockmv.com/social/mountain-view-projects.png" />
 <meta name="twitter:image:alt" content="Our Block MV · Mountain View, California" />
-<link rel="stylesheet" href="/assets/wght-DRIKPOmy.css" media="print" data-locale-font="zh-Hans" onload="this.media='all'" /><noscript><link rel="stylesheet" href="/assets/wght-DRIKPOmy.css" /></noscript>
+<link rel="stylesheet" href="/assets/wght-DRIKPOmy.css" media="print" data-locale-font="zh-Hans" onload="(function activateLocaleFont(link) {
+  const apply = () =&gt; { link.media = &#39;all&#39;; };
+  if (performance.getEntriesByName(&#39;first-contentful-paint&#39;).length) {
+    apply();
+    return;
+  }
+  if (typeof PerformanceObserver !== &#39;undefined&#39; &amp;&amp; PerformanceObserver.supportedEntryTypes?.includes(&#39;paint&#39;)) {
+    const observer = new PerformanceObserver((list) =&gt; {
+      if (list.getEntries().some((entry) =&gt; entry.name === &#39;first-contentful-paint&#39;)) {
+        observer.disconnect();
+        apply();
+      }
+    });
+    observer.observe({ type: &#39;paint&#39;, buffered: true });
+  } else {
+    // Older browsers without paint observation still get the selected font.
+    requestAnimationFrame(() =&gt; requestAnimationFrame(apply));
+  }
+})(this)" /><noscript><link rel="stylesheet" href="/assets/wght-DRIKPOmy.css" /></noscript>
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon.png" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <script type="module" crossorigin src="/assets/index-DIEWs4Z3.js"></script>
+    <script type="module" crossorigin src="/assets/index-Cm1dV-xh.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CWGgh1BR.css">
   </head>
   <body>
